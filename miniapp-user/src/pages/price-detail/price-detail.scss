@@ -1,0 +1,16 @@
+.page-price-detail { padding: 12px; background: #f5f5f5; min-height: 100vh; }
+.section { background: #fff; border-radius: 10px; padding: 14px; margin-bottom: 12px; &.note{background:#fffbe6} }
+.section-title { display: block; font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+.rule-item { padding: 6px 0; border-bottom: 1px solid #f5f5f5; &:last-child{border-bottom:0} }
+.rule-label { display: block; font-size: 13px; color: #333; font-weight: 500; margin-bottom: 2px; }
+.rule-val { display: block; font-size: 12px; color: #999; }
+.vehicle-card { border: 1px solid #eee; border-radius: 8px; padding: 12px; margin-bottom: 10px; &:last-child{margin-bottom:0} }
+.vc-name { font-size: 14px; font-weight: 600; }
+.vc-desc { display: block; font-size: 12px; color: #999; margin-bottom: 6px; }
+.vc-row { display: flex; justify-content: space-between; padding: 3px 0; }
+.vc-label { font-size: 12px; color: #666; }
+.vc-val { font-size: 12px; color: #333; }
+.item-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #f5f5f5; &:last-child{border-bottom:0} }
+.item-name { font-size: 13px; color: #333; }
+.item-fee { font-size: 13px; color: #ff4d4f; font-weight: 500; }
+.note-text { font-size: 11px; color: #999; line-height: 1.7; }

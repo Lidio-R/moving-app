@@ -1,0 +1,12 @@
+.page-coupons { padding: 12px; }
+.empty-box { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 200px; color: #999; }
+.empty-icon { font-size: 40px; }
+.empty-text { font-size: 14px; margin-top: 8px; }
+.coupon-item { display: flex; background: linear-gradient(135deg, #fff5f5, #fffbe6); border-radius: 10px; margin-bottom: 10px; overflow: hidden; }
+.c-left { width: 100px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 12px 8px; border-right: 1.5px dashed #ffcccc; }
+.c-value { font-size: 20px; font-weight: 700; color: #ff4d4f; }
+.c-cond { font-size: 11px; color: #999; margin-top: 2px; }
+.c-right { flex: 1; padding: 12px; display: flex; flex-direction: column; gap: 3px; }
+.c-code { font-size: 12px; color: #666; }
+.c-date { font-size: 11px; color: #999; }
+.c-limit { font-size: 11px; color: #999; }

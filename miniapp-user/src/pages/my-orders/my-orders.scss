@@ -1,0 +1,18 @@
+.page-my-orders { padding-bottom: 10px; }
+.tabs { white-space: nowrap; background: #fff; padding: 8px 12px; margin-bottom: 8px; }
+.tab-item { display: inline-block; padding: 5px 14px; font-size: 13px; color: #666; border-radius: 14px; margin-right: 6px; &.active{background:#1677ff;color:#fff} }
+.empty-box { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 200px; color: #999; }
+.empty-icon { font-size: 40px; }
+.empty-text { font-size: 14px; margin-top: 8px; }
+.order-list { padding: 0 8px; }
+.order-card { background: #fff; border-radius: 10px; padding: 12px; margin-bottom: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.04); }
+.oc-header { display: flex; justify-content: space-between; margin-bottom: 8px; }
+.oc-no { font-size: 12px; color: #999; }
+.oc-status { font-size: 12px; color: #1677ff; font-weight: 500; }
+.oc-body { margin-bottom: 8px; }
+.oc-addr { display: flex; align-items: flex-start; padding: 3px 0; }
+.oc-dot { width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; margin-top: 3px; flex-shrink: 0; &.pickup{background:#52c41a} &.dropoff{background:#1677ff} }
+.oc-text { font-size: 13px; color: #333; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+.oc-footer { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f5f5f5; padding-top: 8px; }
+.oc-time { font-size: 11px; color: #999; }
+.oc-price { font-size: 16px; font-weight: 700; color: #ff4d4f; }

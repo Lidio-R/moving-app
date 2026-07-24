@@ -1,0 +1,13 @@
+.page-orders { padding: 8px; }
+.empty { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 200px; color: #999; }
+.empty-icon { font-size: 40px; }
+.empty-text { font-size: 14px; margin-top: 8px; }
+.order-card { background: #fff; border-radius: 10px; padding: 12px; margin-bottom: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.04); }
+.oc-header { display: flex; justify-content: space-between; margin-bottom: 6px; }
+.oc-price { font-size: 16px; font-weight: 700; color: #ff4d4f; }
+.oc-status { font-size: 12px; color: #1677ff; }
+.oc-addr { display: flex; align-items: flex-start; padding: 2px 0; }
+.oc-dot { width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; margin-top: 2px; flex-shrink: 0; &.pickup{background:#52c41a} &.dropoff{background:#1677ff} }
+.oc-text { font-size: 13px; color: #333; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+.oc-footer { display: flex; justify-content: space-between; margin-top: 6px; }
+.oc-time { font-size: 11px; color: #999; }

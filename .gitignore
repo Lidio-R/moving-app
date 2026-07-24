@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+backend/*.db
+backend/venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+release/
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+frontend/dist/
+miniapp-user/dist/
+miniapp-driver/dist/
+
+# Logs
+*.log
+npm-debug.log*
